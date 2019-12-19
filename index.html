@@ -5,10 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+    	body {
+    		background-color: black;
+    	}
+    	ul {
+    		width: 700px;	
+    		margin: 50px auto;	
+    		display: flex;
+    		justify-content: space-between;
+    		list-style-type: none;
+    		padding: 0;
+    	}
+    	li > a {
+    		text-decoration: none;
+    		background-color: white;
+    		color: black;
+    		padding: 50px;	
+    		font-size: 24px;
+    		box-shadow: 10px 10px 15px 1px green;
+    		display: flex;
+    		justify-content: center;
+    		align-items: center;
+    		transition: background-color 0.3s ease,
+    					color 0.3s ease,
+    					text-transform 0.3s ease;
+    	}
+    	li > a:hover {
+			background-color: #222;
+			color: gold;
+			text-transform: uppercase;
+			font-weight: bold;
+			border: 2px solid white;
+    	}
+    </style>
 </head>
 <body>
     <ul>
-        <li><a href="aboutme/index.html">Man haqimda</a></li>
+        <li><a href="aboutme/index.html">Bootsrtrap</a></li>
+        <li><a href="muhammad/index.html">Ikkinchi portfolio</a></li>
     </ul>
 </body>
 </html>
